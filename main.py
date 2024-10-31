@@ -99,6 +99,7 @@ root = tk.Tk()
 root.title("Jarvis AI Voice Assistant")
 root.geometry("500x400")
 root.configure(bg="#333333")
+root.iconbitmap("D:/Github pushed/Rhombix-Remote-Intern-tasks/22.ico")
 
 status_label = tk.Label(root, text="Click 'Start' to begin", font=("Helvetica", 14), bg="#333333", fg="white")
 status_label.pack(pady=10)
